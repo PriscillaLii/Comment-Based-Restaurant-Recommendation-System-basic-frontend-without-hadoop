@@ -1,0 +1,10 @@
+Team, Course Project
+
+Developed a web application of filtering, recommending and searching local restaurants.
+Built the recommendation system by analyzing the keywords frequency of the collected comments.
+Used MongoDB and Hadoop to store informations as distribution data.
+
+This is half of the whole project. Basic Front-End and didn't include hadoop.
+Another team member and I finished the back-end part and the database, which is in this repository. 
+And two other team members took responsibilities of hadoop and front-end. 
+We used their computer to combine this two parts. Thus I don't have their code after three years.
