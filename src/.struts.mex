@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="10,10" size="264,622">
+    <action name="login" location="98,90" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="login.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="alluser" location="137,145" size="118,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Userlist.jsp" />
+      </result>
+    </action>
+    <action name="Warticle" location="119,45" size="112,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="success.jsp" />
+      </result>
+    </action>
+    <action name="Resdetail" location="180,285" size="60,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="res_com.jsp" />
+      </result>
+    </action>
+    <action name="allrestaurant" location="38,388" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Reslist.jsp" />
+      </result>
+    </action>
+    <action name="keycomment" location="93,282" size="49,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="KeyComment.jsp" />
+      </result>
+    </action>
+    <action name="page" location="26,103" size="55,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ResDetail.jsp" />
+      </result>
+    </action>
+    <action name="kpage" location="23,223" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="KeyComment.jsp" />
+      </result>
+    </action>
+    <action name="usercom" location="23,473" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="UserComment.jsp" />
+      </result>
+    </action>
+    <action name="SearchRes" location="37,54" size="44,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Reslist.jsp" />
+      </result>
+    </action>
+    <action name="SearchUser" location="23,573" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Userlist.jsp" />
+      </result>
+    </action>
+    <action name="allcomment" location="52,21" size="69,33">
+      <result name="success" />
+    </action>
+  </package>
+  <webResource name="MyJsp.jsp" path="/MyJsp.jsp" location="75,192" size="150,55" />
+  <webResource name="login.jsp" path="/login.jsp" location="350,50" size="150,55" />
+  <webResource name="error.jsp" path="/error.jsp" location="350,200" size="150,55" />
+  <webResource name="Userlist.jsp" path="/Userlist.jsp" location="50,350" size="150,55" />
+  <webResource name="success.jsp" path="/success.jsp" location="350,350" size="150,55" />
+  <webResource name="MyJsp.jsp" path="/MyJsp.jsp" location="75,192" size="150,55" />
+  <webResource name="login.jsp" path="/login.jsp" location="350,50" size="150,55" />
+  <webResource name="error.jsp" path="/error.jsp" location="350,200" size="150,55" />
+  <webResource name="Userlist.jsp" path="/Userlist.jsp" location="50,350" size="150,55" />
+  <webResource name="success.jsp" path="/success.jsp" location="350,350" size="150,55" />
+  <webResource name="ResDetail.jsp" path="/ResDetail.jsp" location="50,500" size="150,55" />
+  <webResource name="Reslist.jsp" path="/Reslist.jsp" location="350,500" size="150,55" />
+  <webResource name="KeyComment.jsp" path="/KeyComment.jsp" location="50,650" size="150,55" />
+  <webResource name="UserComment.jsp" path="/UserComment.jsp" location="350,650" size="150,55" />
+  <webResource name="res_com.jsp" path="/res_com.jsp" location="50,800" size="150,55" />
+</Struts2Diagram>
+

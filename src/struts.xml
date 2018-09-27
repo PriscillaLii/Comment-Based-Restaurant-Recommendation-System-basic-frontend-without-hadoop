@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" namespace="/" extends="struts-default">  
+        
+        
+        
+        <action name="alluser" class="com.action.ShowAllUsers">
+        	<result>/Userlist.jsp</result>
+        </action>
+        
+        <action name="Resdetail" class="com.action.Resdetail">
+        	<result name="success">/res_com.jsp</result>
+        </action>
+        <action name="allrestaurant" class="com.action.Allrestaurant">
+        	<result name="success">/main.jsp</result>
+        </action>
+        <action name="keycomment" class="com.action.KeyComment">
+        	<result name="success">/KeyComment.jsp</result>
+        </action> 
+       
+        <action name="page" class="com.action.Page">
+        	<result name="success">/res_com.jsp</result>
+        </action>
+        
+        <action name="kpage" class="com.action.Page" method="keyc">
+        	<result name="success">/KeyComment.jsp</result>
+        </action>
+        
+        <action name="usercom" class="com.action.Usercom">
+        	<result name="success">/UserCom.jsp</result>
+        </action>
+        <action name="SearchRes" class="com.action.Searchres" method="search">
+        	<result name="success">/Reslist.jsp</result>
+        </action>
+        <action name="SearchUser" class="com.action.Searchres" >
+        	<result name="success">/Userlist.jsp</result>
+        </action>
+        <action name="allcomment" class="com.action.Allcomment">
+        	<result name="success">/commentCount.jsp</result>
+        </action>
+        
+        <action name="Rescomment" class="com.action.Allcomment" method="special">
+        	<result name="success">/commentCount.jsp</result>
+        </action>
+        </package> 		
+</struts>    
